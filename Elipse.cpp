@@ -1,7 +1,7 @@
 #include "Elipse.h"
 #include <cmath>
 using namespace std;
-Elipse::Elipse(double _base, double _altura, double _x, double _y) : Figura(_base, _altura, _x, _y) {
+Elipse::Elipse(double _x, double _y, double _base, double _altura) : Figura(_x, _y, _base, _altura) {
     this->base = _base;
     this->altura = _altura;
     this->x = _x;

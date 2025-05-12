@@ -25,7 +25,7 @@ Actividad:
 #include <iostream>
 #include <vector>
 using namespace std;
-
+//g++ main.cpp  Figura.cpp Elipse.cpp Rectangulo.cpp Triangulo.cpp -o prog
 int main()
 {
   vector<Figura *> misFiguras;

@@ -1,7 +1,7 @@
 #include "Triangulo.h"
 #include "Figura.h"
 using namespace std;
-Triangulo::Triangulo(double _base, double _altura, double _x, double _y) : Figura(_base, _altura, _x, _y) {
+Triangulo::Triangulo(double _x, double _y, double _base, double _altura) : Figura(_x, _y, _base, _altura) {
     this->base = _base;
     this->altura = _altura;
     this->x = _x;

@@ -1,5 +1,5 @@
+#ifndef FIGURA_H
 #define FIGURA_H
-#ifdef FIGURA_H
 #include <iostream>
 using namespace std;
 class Figura{
@@ -9,10 +9,10 @@ class Figura{
         double x;
         double y;
     public:
-        Figura(double _base, double _altura, double _x, double _y);
-        virtual double area(); // Método virtual puro
-        virtual double perimetro(); // Método virtual puro
-        void agrandar(double factor); // Método virtual puro
+        Figura(double _x, double _y, double _base, double _altura);
+        virtual double area()=0; // Método virtual puro
+        virtual double perimetro()=0; // Método virtual puro
+        void agrandar(double factor);
         virtual ~Figura() {} // Destructor virtual
 };
 
